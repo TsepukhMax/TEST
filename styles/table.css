@@ -1,72 +1,53 @@
 table {
-    border-collapse: collapse;
-    border: 2px solid rgb(5, 230, 114);
-    font-family: sans-serif;
-    font-size: 1.5rem;
-    letter-spacing: 1px;
-    flex-wrap: wrap;
-    font-family: Arial;
+  border-collapse: collapse;
+  border: 2px solid rgb(3, 15, 9);
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
   }
   
-  caption {
-    caption-side: bottom;
-    padding: 10px;
-    font-weight: bold;
-  }
+thead,
+tfoot {
+  background-color: rgb(8, 100, 140);
+}
   
-  thead,
-  tfoot {
-    background-color: rgb(8, 100, 140);
-  }
-  
-  th,
-  td {
-    border: 1px solid rgb(10, 0, 0);
-    padding: 8px 10px;
-  }
-  
-  td:last-of-type {
-    text-align: center;
-  }
-  
-  tbody  {
-    background-color: rgb(35, 186, 37);
-  }
-  
-  tfoot th {
-    text-align: center;
-    flex-wrap: wrap;
-  }
+th,
+td {
+  border: 1px solid rgb(10, 0, 0);
+  padding: 8px 10px;
+}
 
-  h2{
-    border: 1px solid;
-    border-radius: 20px 20px;
-    background-color: green;
-    color: black;
-    box-sizing: border-box;
-    width: 40%;
-    text-align: center;
-  }
-
-  a:link {
-    color: #D11BCE;
-    text-decoration: none;
-  }
+tbody  {
+  background-color: rgb(35, 186, 37);
+}
   
+h2{
+  border: 1px solid;
+  border-radius: 20px 20px;
+  background-color: green;
+  color: black;
+  box-sizing: border-box;
+  width: 40%;
+  text-align: center;
+}
 
-  a:hover {
-    color: #6897EE;
-    background-color: #000000;
-  }
+a:link {
+  color: #D11BCE;
+  text-decoration: none;
+}
   
-
-  a:active{
-    color: #B8860B;
-    background-color: #000000;
-  }
+a:hover {
+  color: #6897EE;
+  background-color: #000000;
+}
   
-  html{
-    background-image: url("https://sotni.ru/wp-content/uploads/2023/08/kriptovaliuty-3.webp");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+a:active{
+  color: #B8860B;
+  background-color: #000000;
+}
+  
+html{
+  background-image: url("https://sotni.ru/wp-content/uploads/2023/08/kriptovaliuty-3.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+}

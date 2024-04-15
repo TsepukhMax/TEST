@@ -2,7 +2,7 @@ html {
     background-image: url('https://24tv.ua/resources/photos/news/202310/2405070.jpg?v=1696423436000');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: 150%;
     font-family: Arial;
   }
 
@@ -15,7 +15,7 @@ html {
     margin: 0 auto;
     background-color: #17233B;
     text-align: center;
-    font: size 80px;
+    font-size: 30px;
     color: rgb(83, 143, 217);
     padding: 0%;
  
@@ -28,6 +28,6 @@ h2{
     margin: 0 auto;
     border-radius: 20px 20px;
     text-align: center;
-    font: size 80px;
+    font-size: 30px;
     color: rgb(83, 143, 217);
 }

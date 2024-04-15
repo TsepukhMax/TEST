@@ -1,65 +1,122 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>Filling the form</title>
     <link rel="stylesheet" href="../styles/form.css">
   </head>
-<main>
-<form>
-        <fieldset>
-          <legend>Choose your favorite token</legend>
+
+  <body>
+  <main>
+    <h1>REGISTRATION</h1>
+  </main>
+
+    <div>
+      <label for="email">Email: </label>
+      <input type="email" id="email">
+      <br><br>
+    </div>
+
+    <div>
+      <label for="pass">Password (5 characters minimum): </label>
+      <input type="password" id="pass" name="password" minlength="8" required />
+      <br><br>
+    </div>
+
+    <fieldset>
+      <legend>Choose your favorite token</legend>
           <div>
-          <input type="radio" id="ETH" name="Crypto" value="ETH" checked />
-          <label for="ETH">ETHEREUM</label><br />
+            <input type="radio" id="ETH" name="Crypto" value="ETH" checked />
+            <label for="ETH">ETHEREUM</label><br />
           </div>
+
           <div>
-          <input type="radio" id="STRK" name="Crypto" value="STRK"checked  />
-          <label for="STRK">STARK</label><br />
+            <input type="radio" id="STRK" name="Crypto" value="STRK">
+            <label for="STRK">STARK</label><br />
           </div>
+
           <div>
-          <input type="radio" id="ARB" name="Crypto" value="ARB"checked  />
-          <label for="ARB">ARBITRUM</label><br />
+            <input type="radio" id="ARB" name="Crypto" value="ARB">
+            <label for="ARB">ARBITRUM</label>
           </div>
-          <label for="pet-select">Choose your budget:</label>
+    </fieldset>
+            <br>
+        
+    <fieldset>
+      <legend>Choose your budget:</legend>
+      <div>
+        <label for="amount"></label>
+        <select name="budget" id="amount">
+          <option value=""disabled selected hidden>--Please choose an option--</option>
+          <option value="100">100$</option>
+          <option value="300">300$</option>
+          <option value="500">500$</option>
+          <option value="1000">1000$</option>
+          <option value="5000">5000$</option>
+          <option value="10 000">10 000$</option>
+        </select>
+      </div>
+    </fieldset>
+          <br>
+      
+    <fieldset>
+      <legend>Why you interest crypto?</legend>
+      <div>
+        <input type="checkbox" id="interests" name="interest choose" value="Additional income" />
+        <label for="interest">Additional income</label>
 
-<select name="budget" id="amount">
-  <option value="amount">--Please choose an option--</option>
-  <option value="100">100$</option>
-  <option value="300">300$</option>
-  <option value="500">500$</option>
-  <option value="1000">1000$</option>
-  <option value="5000">5000$</option>
-  <option value="10 000">10 000$</option>
-</select>
-</fieldset>
-        <br><br>
+        <input type="checkbox" id="interests" name="interest choose" value="Eko systems" />
+        <label for="interest">Eko systems</label>
+          
+        <input type="checkbox" id="interests" name="interest choose" value="Fast transfers" />
+        <label for="interest">Fast transfers</label>
+      </div>
+    </fieldset>
+        <br>
 
-        <div>
-        <label for="story">Tell us your favorite token:</label>
-<textarea id="story" name="story" rows="5" cols="33">
-My favorite token is ...
-</textarea>
-<br><br>
-</div>
+    <fieldset>
+      <legend>How much time a day do you spend for crypto? (0-24 hourse)</legend> 
+      <div>
+        <label for="Time"></label>
+        <input type="number" id="Time" name="Time" min="0" max="24" />
+      </div>
+    </fieldset>
+        <br>
 
-<div>
-    <label for="name">Name: </label>
-    <input type="text" id="name"> 
-    <br><br>
-    <label for="email">Email: </label>
-    <input type="email" id="email">
-    <br><br>
-    <button type="button">Send</button>
-  </div>
+    <fieldset>
+      <legend>Tell us your favorite token:</legend>
+      <div>
+        <label for="story"></label>
+        <textarea placeholder="My favorite token is ..." id="story" name="story" rows="5" cols="33"></textarea>
+      </div>
+    </fieldset>
+        <br>
 
-  </form>
-</main>
-<footer>
-  <div>
-    <h1><a href="table.html">Back</a></h1>
-    <h1><a href="../index.html">Start page</a></h1>
-  </div>
-</footer>
-  </html>
+    <fieldset>
+      <legend>How do you rate your knowledge of crypto?</legend>
+      <div>
+        <input type="range" id="knowledge" name="knowledge" min="0" max="100" value="90" step="10" />
+        <label for="knowledge"></label>
+      </div>
+    </fieldset>
+        <br>
+
+    <fieldset>
+      <legend>Choose file to upload</legend>
+      <div>
+        <label for="profile_pic"></label>
+        <input type="file" id="profile_pic" name="profile_pic" accept=".jpg, .jpeg, .png" />
+        <input type="submit" />
+      </div>
+    </fieldset>
+  </body>
+
+  <footer>
+    <div>
+      <h2><a href="table.html">Back</a></h2>
+      <h2><a href="../index.html">Start page</a></h2>
+    </div>
+  </footer>
+</html>
 
 
 
