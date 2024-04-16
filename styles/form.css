@@ -1,11 +1,11 @@
-html{
-   background-color: #0f1d3a;
-   font-family: Arial;
+html {
+  background-color: #0f1d3a;
+  font-family: Arial;
 }
 
-h1{
-   text-align: center;
-   color: #FF9E03;
+h1 {
+  text-align: center;
+  color: #FF9E03;
 }
 
 label {
@@ -23,11 +23,11 @@ legend {
 }
 
 input[type="password"], input[type="email"] {
-    border: 1px solid #FF9E03;
-    background-color: #4d4f52;
-    color: #FFFFFF;
-    font-weight: bold;
-    border-radius: 10px;
+  border: 1px solid #FF9E03;
+  background-color: #4d4f52;
+  color: #FFFFFF;
+  font-weight: bold;
+  border-radius: 10px;
 }
 
 select {
@@ -45,7 +45,7 @@ textarea {
   box-shadow: 1px 1px 1px #999;
 }
 
-#profile_pic{
+#profile_pic {
   color: #a51a1a;
 }
 
@@ -60,6 +60,6 @@ input[type='submit'] {
   font-size: 18px;
 }
 
-footer{
+footer {
   background-color: #0f1d3a;
 }
