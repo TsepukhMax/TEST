@@ -22,7 +22,8 @@ legend {
   width: 20%; 
 }
 
-input[type="password"], input[type="email"] {
+input[type="password"],
+input[type="email"] {
   border: 1px solid #FF9E03;
   background-color: #4d4f52;
   color: #FFFFFF;
